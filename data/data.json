@@ -1,0 +1,79 @@
+{
+    "commencer": {
+        "title": "Vous êtes au cœur du Far West, entouré par le désert. Que faites-vous ?",
+        "choices": [
+            "Marcher vers la ville la plus proche",
+            "Rechercher de l'eau dans le désert"
+        ]
+    },
+    "marcher_vers_la_ville_la_plus_proche": {
+        "title": "Vous arrivez à la ville de Dusty Gulch, que faites-vous ?",
+        "choices": [
+            "Chercher un travail",
+            "Visiter le saloon"
+        ]
+    },
+    "chercher_un_travail": {
+        "title": "Vous trouvez un emploi de shérif de la ville. Un bandit est en cavale, que faites-vous ?",
+        "choices": [
+            "Partir à la poursuite du bandit",
+            "Prendre un verre pour célébrer votre nouveau poste"
+        ]
+    },
+    "partir_à_la_poursuite_du_bandit": {
+        "title": "Vous traquez le bandit dans le désert. Il vous tend une embuscade, que faites-vous ?",
+        "choices": [
+            "Tenter de négocier avec lui",
+            "Engager un duel"
+        ]
+    },
+    "tenter_de_négocier_avec_lui": {
+        "title": "Vous parvenez à convaincre le bandit de se rendre. Vous êtes un héros !",
+        "choices": [],
+        "emoji": "👑"
+    },
+    "engager_un_duel": {
+        "title": "Vous engagez un duel avec le bandit, mais il est plus rapide. Vous êtes abattu...",
+        "choices": [],
+        "emoji": "💀"
+    },
+    "prendre_un_verre_pour_célébrer_votre_nouveau_poste": {
+        "title": "Vous trinquez au saloon, mais vous buvez trop. Vous finissez dans une bagarre...",
+        "choices": [],
+        "emoji": "💀"
+    },
+    "visiter_le_saloon": {
+        "title": "Au saloon, vous rencontrez un étranger qui vous propose un jeu de cartes, acceptez-vous ?",
+        "choices": [
+            "Accepter et jouer",
+            "Refuser et partir"
+        ]
+    },
+    "accepter_et_jouer": {
+        "title": "Vous jouez au poker avec l'étranger. Vous remportez la partie et gagnez une grosse somme d'argent !",
+        "choices": [],
+        "emoji": "👑"
+    },
+    "refuser_et_partir": {
+        "title": "Vous refusez l'offre de jeu. En sortant du saloon, vous êtes pris pour un lâche...",
+        "choices": [],
+        "emoji": "💀"
+    },
+    "rechercher_de_l'eau_dans_le_désert": {
+        "title": "Vous marchez dans le désert à la recherche d'eau. Que faites-vous lorsque vous en trouvez ?",
+        "choices": [
+            "Boire immédiatement",
+            "Remplir une gourde et continuer à marcher"
+        ]
+    },
+    "boire_immédiatement": {
+        "title": "Vous buvez l'eau du désert, mais elle est empoisonnée. Vous tombez malade...",
+        "choices": [],
+        "emoji": "💀"
+    },
+    "remplir_une_gourde_et_continuer_à_marcher": {
+        "title": "Vous remplissez votre gourde et continuez à marcher. Vous trouvez finalement une ville, saine et sauve !",
+        "choices": [],
+        "emoji": "👑"
+    }
+}

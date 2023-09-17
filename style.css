@@ -1,0 +1,108 @@
+/* Style of index.html */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* Navigation Bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Body */
+.body {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+/* center all body components */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+/* Main */
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+    /* Used in this example to enable scrolling */
+    background: white;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - makes the navbar a vertical list on small screens */
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+input[type=button] {
+    transition-duration: 0.3s;
+    font-size: 20px;
+    background-color: #460AE6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+input[type=button]:hover {
+    font-size: 20px;
+    background-color: #DDF849;
+    border: none;
+    color: #460AE6;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 32px;
+}
